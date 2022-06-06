@@ -32,6 +32,7 @@ Cada ciclo será gerenciado com o quadro Kanban.
 | Planejar os testes para cada funcionalidade e os testes de regressão | Quarta | 4 |
 | Criar uma estratégia para persistir os dados | Quinta | 3 |
 | Criar um plano para segurança | Quinta | 6 |
+| Definir a linguagem de programação para o *front-end* e *back-end*, *frameworks* e sistema de banco de dados | Sexta | 4 |
 
 ## Implementação
 
