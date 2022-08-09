@@ -1,55 +1,73 @@
 # *Sprints*
 
-Conforme acordado entre os membros da equipe, cada fase ser· composta por um ou mais ciclos (*sprints* em Scrum) que estipula um conjunto de atividades a ser desempenhada em determinado perÌodo limitado.  
+Conforme acordado entre os membros da equipe, cada fase ser√° composta por um ou mais ciclos (*sprints* em Scrum) que estipula um conjunto de atividades a ser desempenhada em determinado per√≠odo finito.  
 
-Cada ciclo ser· gerenciado com o quadro Kanban.
+Cada ciclo ser√° gerenciado com o quadro Kanban.
 
-## IniciaÁ„o
+## Inicia√ß√£o
 
-| DescriÁ„o | *Sprint* | Tempo estimado (dias) |
-| ----------- | -------- | ------- |
-| Identificar os *stakeholders* e os meios para contat·-los | Primeira | 1 |
-| Definir quais ser„o as tÈcnicas para o levantamento de requisitos | Primeira | 1 |
-| Classificar o domÌnio do problema e o objetivo do projeto | Primeira | 1 |
-| Identificar quais par‚metros para especificar os requisitos | Segunda | 2 |
-| Definir os critÈrios de validaÁ„o para os requisitos | Segunda | 2 |
+| Descri√ß√£o | *Sprint* | Tempo estimado (dias) |
+| --------- | -------- | --------------------- |
+| Identificar os *stakeholders* e os meios para contat√°-los | Primeira | 1 |
+| Definir quais ser√£o as t√©cnicas para o levantamento de requisitos | Primeira | 1 |
+| Classificar o dom√≠nio do problema e o objetivo do projeto | Primeira | 1 |
+| Identificar quais par√¢metros para especificar os requisitos | Segunda | 2 |
+| Definir os crit√©rios de valida√ß√£o para os requisitos | Segunda | 2 |
 | Levantar os requisitos | Terceira | 14 |
 | Criar o Lean Inception com o mapa de empatia | Terceira | 5 |
 | Modelagem conceitual (utilizando UML) | Quarta | 7 |
 | Validar os requisitos | Quarta | 3 |
 
-## ElaboraÁ„o
+## Elabora√ß√£o
 
-| DescriÁ„o | *Sprint* | Tempo estimado (dias) |
-| ----------- | -------- | ------- |
-| Estimar o tempo necess·rio para cada atividade utilizando Planning Poker | Primeira | 1 |
+| Descri√ß√£o | *Sprint* | Tempo estimado (dias) |
+| --------- | -------- | --------------------- |
+| Estimar o tempo necess√°rio para cada atividade utilizando Planning Poker | Primeira | 1 |
 | Utilizar o resultado para preencher a Rede de Atividades | Primeira | 1 |
-| Calcular o caminho crÌtico | Segunda | 1 |
-| Identificar os riscos do projeto e reduzÌ-los ou elimin·-los | Segunda | 3 |
-| Definir mÈtricas para avaliar a qualidade do processo | Segunda | 2 |
+| Calcular o caminho cr√≠tico | Segunda | 1 |
+| Identificar os riscos do projeto e reduz√≠-los ou elimin√°-los | Segunda | 3 |
+| Definir m√©tricas para avaliar a qualidade do processo | Segunda | 2 |
 | Criar os diagramas de projeto UML | Terceira | 10 |
 | Definir a arquitetura | Quarta | 20 |
-| Planejar os testes para cada funcionalidade e os testes de regress„o | Quarta | 4 |
-| Criar uma estratÈgia para persistir os dados | Quinta | 3 |
-| Criar um plano para seguranÁa | Quinta | 6 |
-| Definir a linguagem de programaÁ„o para o *front-end* e *back-end*, *frameworks* e sistema de banco de dados | Sexta | 4 |
+| Planejar os testes para cada funcionalidade e os testes de regress√£o | Quarta | 4 |
+| Criar uma estrat√©gia para persistir os dados | Quinta | 3 |
+| Criar um plano para seguran√ßaa | Quinta | 6 |
+| Definir a linguagem de programa√ß√£o para o *front-end* e *back-end*, *frameworks* e sistema de banco de dados | Sexta | 4 |
 
-## ImplementaÁ„o
+## Implementa√ß√£o
 
-Estas sprints est„o intimamente ligadas com cada requisito funciona.
+Estas sprints est√£o intimamente ligadas com cada requisito funciona. Vale ressaltar que os testes foram omitidos, por√©m fazem parte de todo o processo de Engenharia de Software, sendo aplicado inerentemente em cada fase e disciplina.
 
-Os par‚metros do *Lean Inception* ser„o acrescentados aos requisitos de implementaÁ„o, porÈm estar„o localizadas no quadro Kanban.
+Os par√¢metros do *Lean Inception* ser√£o acrescentados aos requisitos de implementa√ß√£o, por√©m estar√£o localizadas no quadro Kanban.
 
-| DescriÁ„o | Escopo | Estabilidade | Funcional / N„o-Funcional | *Sprint* | Tempo estimado (dias) |
-| ----------- | -------- | ------- | ------- | ------- | ------- |
-| O sistema deve cadastrar o usu·rio, requisitando pelo nome completo, cpf, data de nascimento, e-mail e senha | Cadastro | Alguns dados talvez sejam retirados ou acrescentados | Funcional | Primeira | 14
-| O sistema deve enviar as informaÁıes do cadastro para o cliente | Cadastro | Est·vel | Funcional | Primeira | 5
-| O sistema deve exigir que o usu·rio envie pelo menos 1 documento com foto para comprovaÁ„o | Cadastro | Est·vel | Funcional | Primeira | 4 |
-| O sistema deve fornecer um conjunto finito de gravidades (grave, mediano e leve) para os alertas a serem enviados | Alertas | A quantidade de alerta pode sofrer alteraÁıes, pois o cliente pode requisitar por um refinamento ou adiÁ„o | Funcional | Segunda | 5 |
-| O sistema n„o deve permitir a alteraÁ„o do nome dado ‡ gravidade | Alertas | Est·vel | Funcional | Segunda | 1 |
-| O sistema deve notificar o usu·rio se o alerta foi enviado ou n„o | NotificaÁ„o | Est·vel | Funcional | Terceira | 4 |
+### Front-end
 
-## ImplantaÁ„o
+| Descri√ß√£o | Escopo | Estabilidade | Funcional / N√£o-Funcional | *Sprint* | Tempo estimado (dias) |
+| --------- | ------ | ------------ | ------------------------- | -------- | --------------------- |
+| O sistema deve cadastrar o usu√°rio, requisitando pelo nome completo, cpf, data de nascimento, e-mail e senha | Cadastro | Alguns dados talvez sejam retirados ou acrescentados | Funcional | Primeira | 14
+| O sistema deve enviar as informa√ß√µes do cadastro para o cliente | Cadastro | Est√°vel | Funcional | Primeira | 5
+| O sistema deve exigir que o usu√°rio envie pelo menos 1 documento com foto para comprova√ß√£o | Cadastro | Est√°vel | Funcional | Primeira | 4 |
+| O sistema deve fornecer um conjunto finito de gravidades (grave, mediano e leve) para os alertas a serem enviados | Alertas | A quantidade de alerta pode sofrer altera√ß√µes, pois o cliente pode requisitar por um refinamento ou adi√ß√£o | Funcional | Segunda | 5 |
+| O sistema n√£o deve permitir a altera√ß√£o do nome dado √† gravidade | Alertas | Est√°vel | Funcional | Segunda | 1 |
+| O sistema deve notificar o usu√°rio se o alerta foi enviado ou n√£o | Notifica√ß√£o | Est√°vel | Funcional | Terceira | 4 |
+| O sistema deve obrigar o usu√°rio a se identificar atrav√©s da biometria antes de enviar o alerta | Seguran√ßa | Est√°vel | Funcional | Terceira | 3 |
 
-| DescriÁ„o | *Sprint* | Tempo estimado (dias) |
-| ----------- | -------- | ------- |
+### Back-end
+
+A abordagem padr√£o para o desenvolvimento de software quando o banco de dados escolhido √© N√£o-relacional (NoSQL) envolve projetar a aplica√ß√£o e, posteriormente, modelar o banco de dados.
+
+| Descri√ß√£o | Escopo | *Sprint* | Tempo estimado (dias) |
+| --------- | ------ | -------- | --------------------- |
+| Definir a estrutura do projeto (em n√≠vel de diret√≥rios e arquivos) | Projeto | Primeira | 1 |
+| Criar o projeto e integrar com os pacotes necess√°rios para o desenvolvimento e em ambiente de produ√ß√£o | Projeto | Primeira | 1 |
+| Reusar bibliotecas de apoio (teste, padroniza√ß√£o de c√≥digo, etc...) | Projeto | Primeira | 1 |
+| Criar as classes de acordo com o Diagrama de Classes | Modelagem de Dados | Segunda | 3 |
+| Configurar o servidor e definir as rotas necess√°rias para o MVP | Rotas (API) | Segunda | 10 |
+| Implementar a sequ√™ncia l√≥gica dos dados e objetos sendo transmitidos | Fluxo da aplica√ß√£o | Terceira | 2 |
+| Criar o modelo de dados de acordo com o Diagrama de Entidade Relacionamento | Banco de Dados | Terceira | 2 |
+| Implementar a Camada de Acesso aos Dados (*Data Access Layer*) | Banco de Dados | Quarta | 6 |
+
+## Implanta√ß√£o
+
+| Descri√ß√£o | *Sprint* | Tempo estimado (dias) |
+| --------- | -------- | --------------------- |
