@@ -66,6 +66,7 @@ A abordagem padrão para o desenvolvimento de software quando o banco de dados e
 | Implementar a sequência lógica dos dados e objetos sendo transmitidos | Fluxo da aplicação | Terceira | 2 |
 | Criar o modelo de dados de acordo com o Diagrama de Entidade Relacionamento | Banco de Dados | Terceira | 2 |
 | Implementar a Camada de Acesso aos Dados (*Data Access Layer*) | Banco de Dados | Quarta | 6 |
+| Coordenar e orquestrar o desenvolvimento de eventos para comunicar com o *front-end* | Comunicação e integração | Quarta | 8 |
 
 ## Implantação
 
