@@ -11,11 +11,11 @@ Cada ciclo será gerenciado com o quadro Kanban.
 | Identificar os *stakeholders* e os meios para contatá-los | Primeira | 1 |
 | Definir quais serão as técnicas para o levantamento de requisitos | Primeira | 1 |
 | Classificar o domínio do problema e o objetivo do projeto | Primeira | 1 |
-| Identificar quais parâmetros para especificar os requisitos | Segunda | 2 |
+| Identificar os parâmetros para especificar os requisitos | Segunda | 2 |
 | Definir os critérios de validação para os requisitos | Segunda | 2 |
 | Levantar os requisitos | Terceira | 14 |
 | Criar o Lean Inception com o mapa de empatia | Terceira | 5 |
-| Modelagem conceitual (utilizando UML) | Quarta | 7 |
+| Modelagem conceitual (utilizando UML - Diagrama de Caso de Uso e Diagrama de Classes) | Quarta | 7 |
 | Validar os requisitos | Quarta | 3 |
 
 ## Elaboração
